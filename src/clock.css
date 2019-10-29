@@ -1,5 +1,5 @@
 .clock {
-    width: 120px;
+    width: 200px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     border-radius: 5px;
     margin: 5px;
     background: #ccc;
+    float: left;
 }
 .digital-clock {
     padding: 10px;
@@ -15,7 +16,7 @@
 .analog-clock {
     width: 100px;
     height: 100px;
-    border: solid 1px #000;
+    border: solid 2px #000;
     border-radius: 50%;
     position: relative;
     background: #fff;
