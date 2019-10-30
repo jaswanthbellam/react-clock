@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-clock/static/css/main.25d2343c.chunk.css",
+    "main.js": "/react-clock/static/js/main.6acbc36c.chunk.js",
+    "main.js.map": "/react-clock/static/js/main.6acbc36c.chunk.js.map",
+    "runtime-main.js": "/react-clock/static/js/runtime-main.d0967a63.js",
+    "runtime-main.js.map": "/react-clock/static/js/runtime-main.d0967a63.js.map",
+    "static/js/2.fd14576e.chunk.js": "/react-clock/static/js/2.fd14576e.chunk.js",
+    "static/js/2.fd14576e.chunk.js.map": "/react-clock/static/js/2.fd14576e.chunk.js.map",
+    "index.html": "/react-clock/index.html",
+    "precache-manifest.770dd7fe221c5b603a9740d71d59886f.js": "/react-clock/precache-manifest.770dd7fe221c5b603a9740d71d59886f.js",
+    "service-worker.js": "/react-clock/service-worker.js",
+    "static/css/main.25d2343c.chunk.css.map": "/react-clock/static/css/main.25d2343c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0967a63.js",
+    "static/js/2.fd14576e.chunk.js",
+    "static/css/main.25d2343c.chunk.css",
+    "static/js/main.6acbc36c.chunk.js"
+  ]
+}
