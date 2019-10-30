@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import Clock from "./Clock"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <span><Clock title="Los Angeles" datediff={-2} /></span>
+        <span><Clock title="Chicago" datediff={0} /></span>
+        <span><Clock title="New York" datediff={1} /></span>
+        <span><Clock title="London" datediff={5} /></span>
+        <span><Clock title="Moscow" datediff={8} /></span>
+        <span><Clock title="Tokyo" datediff={9} /></span>
+      </div>
   );
 }
-
 export default App;
