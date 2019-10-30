@@ -1,4 +1,4 @@
-# \<Clock />/
+# \<Clock />
 
 Clock component provides you both analog and digital clock together.
 
