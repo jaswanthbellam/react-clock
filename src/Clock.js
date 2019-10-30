@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./clock.css"
 
 export default class Clock extends React.Component {
     clockInterval = "";

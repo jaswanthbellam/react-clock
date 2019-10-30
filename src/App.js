@@ -1,7 +1,6 @@
 import React from 'react';
-import Clock from "./clock"
+import Clock from "./Clock"
 import './App.css';
-import "./clock.css"
 
 function App() {
   return (
