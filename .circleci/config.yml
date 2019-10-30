@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:0.1.0
+    steps:
+      - checkout
+      - run:
+          name: Install and configure dependencies
+          command:
+            npm install -g --silent gh-pages
+            git config user.email "jaswanth.bellam@gmail.com"
+            git config user.name "jaswanthbellam"
+      - run:
+          name: Deploy to gh-pages
+          command: gh-pages -d build
